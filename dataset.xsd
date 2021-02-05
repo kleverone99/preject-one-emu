@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+          <!-- XML Schema Generated from XML Document on Thu Feb 27 2020 17:16:22 GMT-0500 (Eastern Standard Time) -->
+          <!-- with XmlGrid.net Free Online Service http://xmlgrid.net -->
+       <xs:element name="data-set">
+              <xs:complexType>
+                     <xs:sequence>
+                            <xs:element name="record" maxOccurs="unbounded">
+                                   <xs:complexType>
+                                          <xs:sequence>
+                                                 <xs:element name="Patient_ID" type="xs:int"></xs:element>
+                                                 <xs:element name="Name" type="xs:string"></xs:element>
+                                                 <xs:element name="Age" type="xs:int"></xs:element>
+                                                 <xs:element name="Gender" type="xs:string"></xs:element>
+                                                 <xs:element name="Insurance" type="xs:string"></xs:element>
+                                             </xs:sequence>
+                                      </xs:complexType>
+                               </xs:element>
+                        </xs:sequence>
+                     <xs:attribute name="xmlns:xsi" type="xs:string"></xs:attribute>
+                 </xs:complexType>
+          </xs:element>
+</xs:schema>
